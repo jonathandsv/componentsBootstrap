@@ -9,10 +9,12 @@ import { AppComponent } from './app.component';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { TypeaheadModule } from 'ngx-bootstrap/typeahead';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { NgxAutocompleteComponent } from './ngx-autocomplete/ngx-autocomplete.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NgxAutocompleteComponent
   ],
   imports: [
     BrowserModule,
